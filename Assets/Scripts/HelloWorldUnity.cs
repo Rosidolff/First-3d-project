@@ -1,6 +1,7 @@
 using UnityEngine;
 
-public class HelloWorldUnity : MonoBehaviour
+public class HelloWorldUnity : MonoBehaviour //el : indica que la clase HelloWorldUnity hereda de MonoBehaviour, 
+//lo que permite que se pueda adjuntar a un GameObject en Unity
 {
     [Header("Player Settings")] //para que aparezca un header en el inspector
      [Tooltip("This is the name of the player")] //para que aparezca un tooltip en el inspector
